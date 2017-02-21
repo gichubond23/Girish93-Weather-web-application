@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>A Weather Web Application</title>
+    <link rel="stylesheet" type="text/css" href="weather.css">
+    <meta charset="utf-8"/>
+
+    <script type="text/javascript" src="weather.js"></script>
+  </head>
+  <body onload="initialize();">
+  <h1>Weather Report Update</h1>
+    <form>
+    <p>Enter your city name:</p>
+       <label>City: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+    <br><br>
+    <p><strong>Click on the display button to view the parameters of your city in the textarea below:</strong></p>
+    <div id="outputdate"></div>
+    <textarea id="txtarea" rows=15 cols=40></textarea>
+    <div id="output">&nbsp;</div>
+  </body>
+</html>

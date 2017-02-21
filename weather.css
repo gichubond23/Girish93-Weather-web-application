@@ -1,0 +1,60 @@
+h1
+{
+	font-family: Arial;
+	font-size:40px;
+	color:#7FFF00;
+	font-style:italic;
+}
+label
+{
+	font-family: Arial;
+	font-size:20px;
+	font-style:italic;
+	color:#FF1493;
+}
+input{
+border-color:#FFD700;	
+}
+p
+{
+	font-family: Arial;
+	font-size:30px;
+	font-style:italic;
+	color:#F08080;
+}
+#txtarea
+{
+	border-color:#FFA07A;
+	background-color:#FAFAD2;
+	color:#FF4500;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:24px;
+}
+input[type=text]
+{
+	background-color:#FFF5EE;
+}
+body
+{
+	background-image:url(weather2.gif);
+	background-size:cover;
+	background-repeat:no-repeat;
+
+
+}
+#output
+{
+	text-align:center;
+	font-size:30px;
+	font-style:italic;
+	color:red;
+}
+#outputdate
+{
+	text-align:center;
+	font-size:30px;
+	font-style:italic;
+	color:orange;
+}
